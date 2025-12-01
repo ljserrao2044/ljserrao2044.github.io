@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daily Tracker</title>
+    <style>
+        body { font-family: Arial; background: #f8f8f8; margin: 0; }
+        .header {
+            background: #4CAF50; color: white; text-align: center;
+            padding: 20px; font-size: 28px;
+        }
+        .container {
+            width: 80%; margin: 20px auto; background: white;
+            padding: 20px; border-radius: 10px;
+        }
+        input {
+            width: 100%; padding: 12px; margin: 10px 0;
+            border-radius: 8px; border: 1px solid #ccc; font-size: 16px;
+        }
+        .btn {
+            background: #4CAF50; color: white; border: none;
+            padding: 15px; width: 100%; border-radius: 10px;
+            font-size: 18px; cursor: pointer;
+        }
+        .btn:hover { background: #45a049; }
+    </style>
+</head>
+<body>
+
+<div class="header">Daily Nutrition Tracker</div>
+
+<div class="container">
+    <h2>Log Your Daily Intake</h2>
+
+    <input type="number" placeholder="Calories eaten today">
+    <input type="number" placeholder="Protein (g)">
+    <input type="number" placeholder="Carbs (g)">
+    <input type="number" placeholder="Fats (g)">
+    <input type="text" placeholder="Water intake (oz)">
+    <button class="btn">Save Entry</button>
+</div>
+
+</body>
+</html>
